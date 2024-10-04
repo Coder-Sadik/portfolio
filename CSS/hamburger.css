@@ -1,0 +1,29 @@
+.bar-icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+	width: inherit;
+	gap: 5px;
+}
+
+.bar {
+	width: 40px;
+	height: 5px;
+	background-color: white;
+	border-radius: 10px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.toggle .bar-1 {
+	transform: translate(0px, 5px) rotate(45deg);
+}
+.toggle .bar-2 {
+	opacity: 0;
+	transition: 0s;
+}
+.toggle .bar-3 {
+	transform: translate(0px, -15px) rotate(-45deg);
+}
