@@ -62,7 +62,7 @@ section {
 	margin: 40px auto;
 	max-width: 1200px;
 	min-height: 100vh;
-	scroll-margin-top: 80px;
+	scroll-margin-top: 85px;
 }
 
 /* about section */
@@ -94,7 +94,7 @@ h1 {
 }
 
 /* resume section */
-.section-title h1 {
+.section-title {
 	text-align: center;
 }
 .education-section,
@@ -147,6 +147,39 @@ h1 {
 	width: 100%;
 	height: 3px;
 	background: linear-gradient(to right, rgb(27, 112, 209) 30%, gray 0%);
+}
+
+/* certificate section */
+.section-title {
+	color: white;
+}
+.certificate-container {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px;
+}
+.certificate-card {
+	display: flex;
+	gap: 20px;
+	border-radius: 10px;
+	border: 1px solid #333;
+}
+.certificate-card img {
+	width: 120px;
+	background-color: #333;
+	padding: 30px;
+	border-radius: 10px 0px 0px 10px;
+}
+.certificate-description {
+	padding: 20px 0px;
+}
+.certificate-description,
+.certificate-description a {
+	color: gray;
+}
+.certificate-description h4 {
+	color: white;
 }
 
 /* media query  */
