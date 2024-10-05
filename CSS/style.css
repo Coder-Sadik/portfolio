@@ -246,6 +246,45 @@ h2,
 	border-radius: 4px;
 }
 
+/* projects section  */
+.project-container {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 2rem;
+	margin-top: 3rem;
+}
+
+.project-list {
+	margin-top: 2rem;
+	border: 1px solid #333;
+	border-radius: 1rem;
+}
+
+.project-list:hover {
+	background-color: #333;
+}
+
+.project-image {
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+}
+
+.project-name,
+.project-description,
+.project-link {
+	padding-left: 1rem;
+}
+
+.project-description,
+.project-link {
+	color: gray;
+}
+
+.project-description {
+	padding: 1rem;
+	text-align: justify;
+}
+
 /* media query  */
 @media screen and (max-width: 1080px) {
 	.nav-bar {
