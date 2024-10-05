@@ -20,7 +20,6 @@
 body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
-	scroll-behavior: smooth;
 }
 /*
     5. Improve media defaults
@@ -65,4 +64,9 @@ h6 {
 /* 9. Remove underline from anchor tags  */
 a {
 	text-decoration: none;
+}
+
+/* 10. Smooth Scrolling */
+html {
+	scroll-behavior: smooth;
 }
