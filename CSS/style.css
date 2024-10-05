@@ -363,6 +363,7 @@ footer span {
 
 /* media query  */
 @media screen and (max-width: 1080px) {
+	/* for navbar */
 	.nav-bar {
 		padding: 10px;
 	}
@@ -399,5 +400,56 @@ footer span {
 	}
 	.nav-menu.active ul li a {
 		font-size: 1rem;
+	}
+
+	/* about section */
+	#about {
+		flex-direction: column;
+	}
+	.hero-text h1 {
+		text-align: center;
+	}
+	.hero-text p {
+		font-size: 1rem;
+		margin: 0px 20px;
+	}
+
+	/* resume section  */
+	.education-section,
+	.experience-section {
+		flex-direction: column;
+		padding: 0px 20px;
+	}
+	.title-education,
+	.title-experience {
+		text-align: center;
+		margin: 40px 0;
+	}
+
+	.education-details,
+	.experience-details {
+		gap: 10px;
+		left: -12px;
+	}
+
+	/* certificates,skills,project and contact section */
+	.certificate-container,
+	.skills-container,
+	.project-container,
+	.contact-info-container {
+		grid-template-columns: repeat(1, 1fr);
+		margin: 20px;
+	}
+
+	/* contact */
+	.address, .send-message {
+		text-align: center;
+		margin-top: 20px;
+	}
+	form{
+		margin-top: 20px;
+	}
+	.footer-container {
+		flex-direction: column;
 	}
 }
